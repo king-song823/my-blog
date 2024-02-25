@@ -1,0 +1,5 @@
+node_modules/
+docs/.vuepress/dist/
+*.log
+docs/.vuepress/coverage/
+package-lock.json
