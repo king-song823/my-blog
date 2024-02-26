@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "vercel-build": "vuepress build",
+    "docs:build": "vuepress build",
     "docs:deploy": "bash deploy.sh"
   },
   "dependencies": {
