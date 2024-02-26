@@ -13,6 +13,6 @@
     "vuepress-theme-reco": "1.6.16"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   }
 }
