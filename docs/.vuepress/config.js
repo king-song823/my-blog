@@ -8,8 +8,6 @@ module.exports = {
   heroImg: "/banner.png",
   base: "/MyBlogV/",
   repo: "https://github.com/king-song823/MyBlogV1",
-  dest: "./docs/.vuepress/dist",
-  docsBranch: "master",
   repoLabel: "Github",
   head: [
     ["link", { rel: "icon", href: "/song.svg" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
