@@ -1,18 +1,10 @@
-#!/usr/bin/env sh
+# deploy gh-pages
+npm run docs:build
+git add docs/.vuepress/dist
+git commit -m "Initial dist subtree commit"
+git subtree push --prefix docs/.vuepress/dist origin gh-pages
 
-# 确保脚本抛出遇到的错误
-set -e
-
-# 生成静态文件
-yarn docs:build
-
-# 进入生成的文件夹
-cd docs/.vuepress/dist
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com/king-song823/MyBlogV.git master:gh-pages
-cd -
+# npm publish
+npm login
+npm version patch
+npm publish
