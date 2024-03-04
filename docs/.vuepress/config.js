@@ -96,12 +96,4 @@ module.exports = {
     ["reading-progress"], // 阅读进度条
     // ["vuepress-plugin-code-copy", true], //一键复制代码插件
   ],
-  deploy: {
-    // 使用 Vercel 部署
-    provider: "vercel",
-    // Vercel 项目 ID
-    projectId: "prj_ktWk1v0y8OIsIgfVT21JA9kTSngH",
-    // Vercel 项目 token
-    token: "CGx04mv4b5RpM7UnvzLsuSor",
-  },
 };
