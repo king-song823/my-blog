@@ -6,8 +6,7 @@ module.exports = {
   title: "KingSong's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "脱离职业内卷,寻求第二曲线", // meta 中的描述文字，用于SEO
   heroImg: "/banner.png",
-  base: "/MyBlogV/",
-  dest: "dist",
+  dest: "dist", // 设置输出目录
   repo: "https://github.com/king-song823/MyBlogV1",
   repoLabel: "Github",
   head: [

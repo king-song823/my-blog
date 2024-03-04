@@ -3,3 +3,4 @@ node_modules/
 docs/.vuepress/coverage/
 package-lock.json
 docs/.vuepress/config.js
+dist
