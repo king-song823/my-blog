@@ -2,3 +2,4 @@ node_modules/
 *.log
 docs/.vuepress/coverage/
 package-lock.json
+docs/.vuepress/config.js

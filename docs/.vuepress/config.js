@@ -55,88 +55,8 @@ module.exports = {
     nav: [
       //导航栏设置
       { text: "Home", link: "/", icon: "reco-home" },
-      // {
-      //   text: "联系",
-      //   icon: "reco-message",
-      //   items: [
-      //     {
-      //       text: "GitHub",
-      //       link: "https://github.com/Tsanfer",
-      //       icon: "reco-github",
-      //     },
-      //     {
-      //       text: "CSDN",
-      //       link: "https://blog.csdn.net/qq_27961843/",
-      //       icon: "reco-csdn",
-      //     },
-      //     {
-      //       text: "BiliBili",
-      //       link: "https://space.bilibili.com/12167681",
-      //       icon: "reco-bilibili",
-      //     },
-      //     {
-      //       text: "豆瓣",
-      //       link: "https://www.douban.com/people/219819109",
-      //       icon: "reco-douban",
-      //     },
-      //     {
-      //       text: "网易云音乐",
-      //       link: "https://music.163.com/#/user/home?id=69696518",
-      //     },
-      //     {
-      //       text: "QQ",
-      //       link: "tencent://message/?uin=1124851454",
-      //       icon: "reco-qq",
-      //     },
-      //     {
-      //       text: "Twitter",
-      //       link: "https://twitter.com/a1124851454",
-      //       icon: "reco-twitter",
-      //     },
-      //     {
-      //       text: "Gmail",
-      //       link: "mailto:a1124851454@gmail.com",
-      //       icon: "reco-mail",
-      //     },
-      //   ],
-      // },
       { text: "TimeLine", link: "/timeline/", icon: "reco-date" },
     ],
-    // sidebar: {
-    //   "/views/FrontEnd/": [
-    //     {
-    //       title: "前端", // 必要的
-    //       sidebarDepth: 2, // 可选的, 默认值是 1
-    //       children: [
-    //         "Basic",
-    //         "vuepress_theme_reco-Github_Actions",
-    //         "VuePress_GithubPages_TravisCI",
-    //         // "Sphinx_GitHub_ReadtheDocs",
-    //       ],
-    //     },
-    //   ],
-    //   "/views/Interview/": [
-    //     {
-    //       title: "面试", // 必要的
-    //       sidebarDepth: 2, // 可选的, 默认值是 1
-    //       children: [
-    //         "Linux_board_NFS",
-    //         "First_Prepare_for_Lanqiao_Cup_MCU_Competition",
-    //       ],
-    //     },
-    //   ],
-    //   "/views/Computer/": [
-    //     {
-    //       title: "算法", // 必要的
-    //       sidebarDepth: 2, // 可选的, 默认值是 1
-    //       children: [
-    //         "Storage_hardware",
-    //         "Windows_WSL_terminal_WebDAV_PartitionBackup",
-    //         "C92_Openwrt_DNS_Swap",
-    //       ],
-    //     },
-    //   ],
-    // },
     // displayAllHeaders: true, // 默认值：false
     subSidebar: "auto",
     record: "蜀ICP备20005033号-2",
@@ -165,15 +85,15 @@ module.exports = {
     //   },
     // ],
   },
-  markdown: {
-    lineNumbers: true, //代码显示行号
-  }, // 搜索设置
+  // markdown: {
+  //   lineNumbers: true, //代码显示行号
+  // }, // 搜索设置
   search: true,
   searchMaxSuggestions: 10, // 插件
   plugins: [
     ["flowchart"], // 支持流程图
     ["@vuepress/nprogress"], // 加载进度条
     ["reading-progress"], // 阅读进度条
-    ["vuepress-plugin-code-copy", true], //一键复制代码插件
+    // ["vuepress-plugin-code-copy", true], //一键复制代码插件
   ],
 };
