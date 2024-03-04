@@ -7,6 +7,7 @@ module.exports = {
   description: "脱离职业内卷,寻求第二曲线", // meta 中的描述文字，用于SEO
   heroImg: "/banner.png",
   base: "/MyBlogV/",
+  dest: "dist",
   repo: "https://github.com/king-song823/MyBlogV1",
   repoLabel: "Github",
   head: [
