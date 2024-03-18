@@ -66,7 +66,7 @@ module.exports = {
     startYear: "2024", // 项目开始时间，只填写年份
     lastUpdated: "最后更新时间", // string | boolean
     author: "kingsong",
-    authorAvatar: "/head.jpg", //作者头像
+    authorAvatar: "/head.png", //作者头像
     // mode: "light", //默认显示白天模式
     mode: "auto", //默认显示白天模式
     smooth: "true", //平滑滚动
