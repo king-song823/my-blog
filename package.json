@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "serve": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "docs:build": "NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs/.",
     "docs:deploy": "bash deploy.sh"
   },
